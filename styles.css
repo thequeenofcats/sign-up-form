@@ -1,0 +1,156 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+:root {
+    --atoll: #5f8a97;
+    --spring-rain: #90bcc7;
+    --jungle-green: #3a879e;
+    --eastern-blue: #24ACB4;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    display: flex;
+    justify-content: flex-start;
+	line-height: 1;
+    align-items: center;
+    background-color: var(--spring-rain);
+    height: 100vh;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+img {
+    height: 100vh;
+    width: auto;
+}
+
+h1 {
+    font-size: 1.5rem;
+    padding-bottom: 30px;
+    font-weight: 600;
+} 
+
+.info-text {
+    height: 10vh;
+    width: 60vw;
+    margin-bottom: 70px;
+    padding-left: 50px;
+}
+
+.dark-bg {
+    background-color: var(--atoll);
+    margin-bottom: 70px;
+    width: 100vw;
+    padding-left: 50px;
+    padding: 40px;
+}
+.input-form {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 55vw;
+    
+    justify-content: space-between;
+    
+}
+
+input {
+    display: block;
+    margin-bottom: 5px;
+    width: 23vw;
+    height: 1.5rem;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 2px solid var(--atoll);
+}
+
+input:valid {
+    border: 2px solid rgb(0, 255, 136);
+}
+
+input:invalid {
+    border: 2px solid rgb(214, 61, 61);
+}
+
+label {
+    text-transform: uppercase;
+    display: block;
+    margin: 10px 0px 10px;
+    letter-spacing: 3px;
+    font-size: 0.7rem;
+}
+
+.account {
+    padding-left: 50px;
+}
+
+.submit-button {
+    background-color: var(--atoll);
+    color: aliceblue;
+    padding: 10px 25px 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s all;
+    margin-bottom: 25px;
+}
+
+.submit-button:hover {
+    background-color: var(--jungle-green);
+}
+
+a {
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--atoll);
+    transition: 0.5s all;
+}
+
+a:hover {
+    color: var(--jungle-green);
+} */

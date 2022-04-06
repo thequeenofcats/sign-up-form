@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="photo">
+        <img src="/Iceland.jpg" alt="picture of Iceland">
+    </div>
+    <main>
+        <div class="info-text">
+            <h1>You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</h1>
+
+            <h1>You <em>know</em> you want to.</h1>
+        </div>
+        <form action="#">
+            <div class="dark-bg">
+                <h1 class="title-form">Let's do this!</h1>
+                <div class="input-form">
+                    <div class="right-side">
+                        <label for="first-name">First name</label>
+                        <input type="text" required>
+                        <label for="email">Email</label>
+                        <input type="email" required>
+                        <label for="first-name">Password</label>
+                        <input type="password" required minlength="8">
+                    </div>
+                    
+                    <div class="left-side">
+                        <label for="last-name">Last name</label>
+                        <input type="text" required>
+                        <label for="phone-number">Phone number</label>
+                        <input type="number" required>
+                        <label for="first-name">Confirm password</label>
+                        <input type="password" required minlength="8">
+                    </div>
+                </div>
+            </div>
+
+             <div class="account">
+                 <button type="submit" class="submit-button">Create Account</button>
+                <p>Already have an account? <a href="#login">Log in.</a></p>
+             </div>
+        </form>
+    </main>
+</body>
+</html>
